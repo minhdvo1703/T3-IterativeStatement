@@ -37,9 +37,9 @@ namespace T3_IterativeStatement
                 Console.WriteLine("CAD   US$");
                 while (CAD <= 200)
                 {
-                    USD = CAD * conversion;
+                    USD = CAD * conversion; //first row should be 0
                     Console.WriteLine("${0}   ${1}", CAD,Math.Round(USD,2));
-                    CAD += value_cad;
+                    CAD += value_cad; //continue increment the CAD
                 }
 
             } 
